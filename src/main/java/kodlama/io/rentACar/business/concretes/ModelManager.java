@@ -2,14 +2,10 @@ package kodlama.io.rentACar.business.concretes;
 
 import kodlama.io.rentACar.business.abstracts.ModelService;
 import kodlama.io.rentACar.business.requests.CreateModelRequest;
-import kodlama.io.rentACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentACar.business.responses.GetAllModelsResponse;
 import kodlama.io.rentACar.core.utilities.mappers.ModelMapperService;
-import kodlama.io.rentACar.dataAccess.abstracts.BrandRepository;
 import kodlama.io.rentACar.dataAccess.abstracts.ModelRepository;
-import kodlama.io.rentACar.entities.concretes.Brand;
 import kodlama.io.rentACar.entities.concretes.Model;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

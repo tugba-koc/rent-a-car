@@ -58,11 +58,12 @@ public class BrandManager implements BrandService {
         return response;
     }
 
-    @Override
+    // TODO: do it again
+/*     @Override
     public void update(UpdateBrandRequest updateBrandRequest) {
         Brand brand = this.modelMapperService.forRequest().map(updateBrandRequest, Brand.class);
         this.brandRepository.save(brand);
-    }
+    } */
 
     @Override
     public void delete(int id) {
